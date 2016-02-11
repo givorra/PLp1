@@ -1,0 +1,172 @@
+Token: 1,1 main  -> (1,1): main es de tipo 18
+
+Token: 1,5 (  -> (1,5): ( es de tipo 1
+
+Token: 1,6 )  -> (1,6): ) es de tipo 2
+
+Token: 1,8 {  -> (1,8): { es de tipo 9
+
+Token: 2,3 double  -> (2,3): double es de tipo 17
+
+Token: 2,10 da  -> (2,10): da es de tipo 15
+
+Token: 2,12 ;  -> (2,12): ; es de tipo 6
+
+Token: 3,3 double  -> (3,3): double es de tipo 17
+
+Token: 3,10 db  -> (3,10): db es de tipo 15
+
+Token: 3,12 ;  -> (3,12): ; es de tipo 6
+
+Token: 4,3 double  -> (4,3): double es de tipo 17
+
+Token: 4,10 dc  -> (4,10): dc es de tipo 15
+
+Token: 4,12 ;  -> (4,12): ; es de tipo 6
+
+Token: 5,3 double  -> (5,3): double es de tipo 17
+
+Token: 5,10 dd  -> (5,10): dd es de tipo 15
+
+Token: 5,12 ;  -> (5,12): ; es de tipo 6
+
+Token: 6,3 int  -> (6,3): int es de tipo 19
+
+Token: 6,7 ea  -> (6,7): ea es de tipo 15
+
+Token: 6,9 ;  -> (6,9): ; es de tipo 6
+
+Token: 7,3 int  -> (7,3): int es de tipo 19
+
+Token: 7,7 eb  -> (7,7): eb es de tipo 15
+
+Token: 7,9 ;  -> (7,9): ; es de tipo 6
+
+Token: 8,3 int  -> (8,3): int es de tipo 19
+
+Token: 8,7 ec  -> (8,7): ec es de tipo 15
+
+Token: 8,9 ;  -> (8,9): ; es de tipo 6
+
+Token: 9,3 int  -> (9,3): int es de tipo 19
+
+Token: 9,7 ed  -> (9,7): ed es de tipo 15
+
+Token: 9,9 ;  -> (9,9): ; es de tipo 6
+
+Token: 25,3 da  -> (25,3): da es de tipo 15
+
+Token: 25,6 =  -> (25,6): = es de tipo 8
+
+Token: 25,8 2  -> (25,8): 2 es de tipo 13
+
+Token: 25,10 +  -> (25,10): + es de tipo 5
+
+Token: 25,12 1  -> (25,12): 1 es de tipo 13
+
+Token: 25,13 ;  -> (25,13): ; es de tipo 6
+
+Token: 29,3 db  -> (29,3): db es de tipo 15
+
+Token: 29,6 =  -> (29,6): = es de tipo 8
+
+Token: 29,8 2.0  -> (29,8): 2.0 es de tipo 16
+
+Token: 29,12 +  -> (29,12): + es de tipo 5
+
+Token: 29,14 1  -> (29,14): 1 es de tipo 13
+
+Token: 29,15 ;  -> (29,15): ; es de tipo 6
+
+Token: 33,3 dc  -> (33,3): dc es de tipo 15
+
+Token: 33,6 =  -> (33,6): = es de tipo 8
+
+Token: 33,8 2  -> (33,8): 2 es de tipo 13
+
+Token: 33,10 +  -> (33,10): + es de tipo 5
+
+Token: 33,12 1.0  -> (33,12): 1.0 es de tipo 16
+
+Token: 33,15 ;  -> (33,15): ; es de tipo 6
+
+Token: 37,3 dd  -> (37,3): dd es de tipo 15
+
+Token: 37,6 =  -> (37,6): = es de tipo 8
+
+Token: 37,8 2.0  -> (37,8): 2.0 es de tipo 16
+
+Token: 37,12 +  -> (37,12): + es de tipo 5
+
+Token: 37,14 1.0  -> (37,14): 1.0 es de tipo 16
+
+Token: 37,17 ;  -> (37,17): ; es de tipo 6
+
+Token: 41,3 ea  -> (41,3): ea es de tipo 15
+
+Token: 41,6 =  -> (41,6): = es de tipo 8
+
+Token: 41,8 3  -> (41,8): 3 es de tipo 13
+
+Token: 41,10 +  -> (41,10): + es de tipo 5
+
+Token: 41,12 7  -> (41,12): 7 es de tipo 13
+
+Token: 41,13 ;  -> (41,13): ; es de tipo 6
+
+Token: 46,3 double  -> (46,3): double es de tipo 17
+
+Token: 46,10 nuevaD  -> (46,10): nuevaD es de tipo 15
+
+Token: 46,16 ;  -> (46,16): ; es de tipo 6
+
+Token: 48,3 nuevaD  -> (48,3): nuevaD es de tipo 15
+
+Token: 48,10 =  -> (48,10): = es de tipo 8
+
+Token: 48,12 11.0  -> (48,12): 11.0 es de tipo 16
+
+Token: 48,16 ;  -> (48,16): ; es de tipo 6
+
+Token: 50,3 int  -> (50,3): int es de tipo 19
+
+Token: 50,7 nuevaI  -> (50,7): nuevaI es de tipo 15
+
+Token: 50,13 ;  -> (50,13): ; es de tipo 6
+
+Token: 52,3 nuevaI  -> (52,3): nuevaI es de tipo 15
+
+Token: 52,10 =  -> (52,10): = es de tipo 8
+
+Token: 52,12 12  -> (52,12): 12 es de tipo 13
+
+Token: 52,14 ;  -> (52,14): ; es de tipo 6
+
+Token: 56,3 double  -> (56,3): double es de tipo 17
+
+Token: 56,10 x  -> (56,10): x es de tipo 15
+
+Token: 56,11 ;  -> (56,11): ; es de tipo 6
+
+Token: 58,3 x  -> (58,3): x es de tipo 15
+
+Token: 58,5 =  -> (58,5): = es de tipo 8
+
+Token: 58,7 nuevaD  -> (58,7): nuevaD es de tipo 15
+
+Token: 58,13 ;  -> (58,13): ; es de tipo 6
+
+Token: 63,3 nuevaD  -> (63,3): nuevaD es de tipo 15
+
+Token: 63,10 =  -> (63,10): = es de tipo 8
+
+Token: 63,12 x  -> (63,12): x es de tipo 15
+
+Token: 63,14 /  -> (63,14): / es de tipo 4
+
+Token: 63,16 10.0  -> (63,16): 10.0 es de tipo 16
+
+Token: 63,20 ;  -> (63,20): ; es de tipo 6
+
+Token: 64,1 }  -> (64,1): } es de tipo 10
+

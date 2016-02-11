@@ -1,0 +1,94 @@
+Token: 2,1 main  -> (2,1): main es de tipo 13
+
+Token: 2,5 (  -> (2,5): ( es de tipo 0
+
+Token: 2,6 )  -> (2,6): ) es de tipo 1
+
+Token: 3,1 {  -> (3,1): { es de tipo 7
+
+Token: 4,3 int  -> (4,3): int es de tipo 12
+
+Token: 4,7 a  -> (4,7): a es de tipo 15
+
+Token: 4,8 ;  -> (4,8): ; es de tipo 4
+
+Token: 5,3 double  -> (5,3): double es de tipo 11
+
+Token: 5,10 b  -> (5,10): b es de tipo 15
+
+Token: 5,11 ;  -> (5,11): ; es de tipo 4
+
+Token: 7,3 a  -> (7,3): a es de tipo 15
+
+Token: 7,5 =  -> (7,5): = es de tipo 6
+
+Token: 7,7 7  -> (7,7): 7 es de tipo 14
+
+Token: 7,8 ;  -> (7,8): ; es de tipo 4
+
+Token: 8,3 a  -> (8,3): a es de tipo 15
+
+Token: 8,5 =  -> (8,5): = es de tipo 6
+
+Token: 8,7 a  -> (8,7): a es de tipo 15
+
+Token: 8,8 /  -> (8,8): / es de tipo 2
+
+Token: 8,9 1  -> (8,9): 1 es de tipo 14
+
+Token: 8,10 ;  -> (8,10): ; es de tipo 4
+
+Token: 9,3 b  -> (9,3): b es de tipo 15
+
+Token: 9,5 =  -> (9,5): = es de tipo 6
+
+Token: 9,7 7.5  -> (9,7): 7.5 es de tipo 16
+
+Token: 9,10 ;  -> (9,10): ; es de tipo 4
+
+Token: 10,3 b  -> (10,3): b es de tipo 15
+
+Token: 10,5 =  -> (10,5): = es de tipo 6
+
+Token: 10,7 1.0  -> (10,7): 1.0 es de tipo 16
+
+Token: 10,10 *  -> (10,10): * es de tipo 2
+
+Token: 10,11 b  -> (10,11): b es de tipo 15
+
+Token: 10,12 ;  -> (10,12): ; es de tipo 4
+
+Token: 11,3 b  -> (11,3): b es de tipo 15
+
+Token: 11,5 =  -> (11,5): = es de tipo 6
+
+Token: 11,7 a  -> (11,7): a es de tipo 15
+
+Token: 11,8 +  -> (11,8): + es de tipo 3
+
+Token: 11,9 b  -> (11,9): b es de tipo 15
+
+Token: 11,10 ;  -> (11,10): ; es de tipo 4
+
+Token: 12,3 b  -> (12,3): b es de tipo 15
+
+Token: 12,5 =  -> (12,5): = es de tipo 6
+
+Token: 12,7 a  -> (12,7): a es de tipo 15
+
+Token: 12,8 +  -> (12,8): + es de tipo 3
+
+Token: 12,9 7.5  -> (12,9): 7.5 es de tipo 16
+
+Token: 12,12 /  -> (12,12): / es de tipo 2
+
+Token: 12,13 7.5  -> (12,13): 7.5 es de tipo 16
+
+Token: 12,16 *  -> (12,16): * es de tipo 2
+
+Token: 12,17 a  -> (12,17): a es de tipo 15
+
+Token: 12,18 ;  -> (12,18): ; es de tipo 4
+
+Token: 13,1 }  -> (13,1): } es de tipo 8
+

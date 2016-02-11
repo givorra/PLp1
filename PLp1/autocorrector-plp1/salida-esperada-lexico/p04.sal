@@ -1,0 +1,60 @@
+Token: 1,1 main  -> (1,1): main es de tipo 13
+
+Token: 1,5 (  -> (1,5): ( es de tipo 0
+
+Token: 1,6 )  -> (1,6): ) es de tipo 1
+
+Token: 2,1 {  -> (2,1): { es de tipo 7
+
+Token: 3,3 int  -> (3,3): int es de tipo 12
+
+Token: 3,7 a  -> (3,7): a es de tipo 15
+
+Token: 3,8 ;  -> (3,8): ; es de tipo 4
+
+Token: 5,3 {  -> (5,3): { es de tipo 7
+
+Token: 6,5 double  -> (6,5): double es de tipo 11
+
+Token: 6,12 b  -> (6,12): b es de tipo 15
+
+Token: 6,13 ;  -> (6,13): ; es de tipo 4
+
+Token: 8,5 b  -> (8,5): b es de tipo 15
+
+Token: 8,6 =  -> (8,6): = es de tipo 6
+
+Token: 8,7 7  -> (8,7): 7 es de tipo 14
+
+Token: 8,8 ;  -> (8,8): ; es de tipo 4
+
+Token: 9,5 {  -> (9,5): { es de tipo 7
+
+Token: 10,7 int  -> (10,7): int es de tipo 12
+
+Token: 10,11 c  -> (10,11): c es de tipo 15
+
+Token: 10,12 ;  -> (10,12): ; es de tipo 4
+
+Token: 12,7 c  -> (12,7): c es de tipo 15
+
+Token: 12,9 =  -> (12,9): = es de tipo 6
+
+Token: 12,11 8  -> (12,11): 8 es de tipo 14
+
+Token: 12,12 ;  -> (12,12): ; es de tipo 4
+
+Token: 13,5 }  -> (13,5): } es de tipo 8
+
+Token: 14,3 }  -> (14,3): } es de tipo 8
+
+Token: 15,3 a  -> (15,3): a es de tipo 15
+
+Token: 15,5 =  -> (15,5): = es de tipo 6
+
+Token: 15,7 c  -> (15,7): c es de tipo 15
+
+Token: 15,8 ;  -> (15,8): ; es de tipo 4
+
+Token: 16,1 }  -> (16,1): } es de tipo 8
+

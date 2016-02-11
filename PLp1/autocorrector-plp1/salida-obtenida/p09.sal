@@ -1,0 +1,7 @@
+Token: 1,1 main  -> (1,1): main es de tipo 18
+
+Token: 1,5 (  -> (1,5): ( es de tipo 1
+
+Token: 1,6 )  -> (1,6): ) es de tipo 2
+
+Error lexico: fin de fichero inesperado
