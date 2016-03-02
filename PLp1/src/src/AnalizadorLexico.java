@@ -262,7 +262,7 @@ public class AnalizadorLexico {
     }
 
     private boolean isFinal(int status) {
-        return (status >= 1 && status <= 19);   // Tiene que ser coherente con los estados declarados en la clase Token
+        return (status >= Token.PARI && status <= Token.MULOP2);   // Tiene que ser coherente con los estados declarados en la clase Token
     }
 
     private char leerCaracter() {
