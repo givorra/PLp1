@@ -52,4 +52,62 @@ public class Token {
     public String toString() {
         return etiqueta;
     }
+    
+    public void setTipo(int status)
+    {
+        switch(status)
+        {            
+            case PARI:
+                tipo = 0;
+                break;         
+            case PARD:
+                tipo = 1;
+                break;         
+            case MULOP1:case MULOP2:
+                tipo = 2;
+                break;         
+            case ADDOP:
+                tipo = 3;
+                break;         
+            case PYC:
+                tipo = 4;
+                break;         
+            case COMA:
+                tipo = 5;
+                break;         
+            case ASIG:
+                tipo = 6;
+                break;         
+            case LLAVEI:
+                tipo = 7;
+                break;         
+            case LLAVED:
+                tipo = 8;
+                break;        
+            case CORI:
+                tipo = 9;
+                break;        
+            case CORD:
+                tipo = 10;
+                break;    
+            case DOUBLE:
+                tipo = 11;
+                break;    
+            case INT:
+                tipo = 12;
+                break;      
+            case MAIN:
+                tipo = 13;
+                break;       
+            case ENTERO1:case ENTERO2:
+                tipo = 14;
+                break;        
+            case ID:
+                tipo = 15;
+                break;       
+            case REAL:
+                tipo = 16;
+                break;    
+        }
+    }
 }

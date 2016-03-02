@@ -23,12 +23,9 @@ public class AnalizadorLexico {
         char c;
         int status = Token.INIT;
 
-        do {
-            if (buffer.isEmpty()) {
-                c = leerCaracter();
-            } else {
-                c = buffer.poll();
-            }
+        do 
+        {
+            c = leerCaracter();
             ++columna;
 
             if (c == '\n') // Se ignoran los saltos de linea, pero se tiene en cuenta para fila y columna
@@ -52,7 +49,7 @@ public class AnalizadorLexico {
                 }
 
                 if (isFinal(newStatus)) {
-                    token.tipo = newStatus;
+                    token.setTipo(newStatus);
                     return token;
                 } else {
                     status = newStatus;
@@ -270,24 +267,28 @@ public class AnalizadorLexico {
         char currentChar;
 
         try {
-            currentChar = (char) file.readByte();
+            if (buffer.isEmpty()) {
+                currentChar = (char) file.readByte();
+            } else {
+                currentChar = buffer.poll();
+            }
             return currentChar;
         } catch (EOFException e) {
-            return Token.EOF;       // constante estática de la clase
+            return Token.EOF;		// constante estática de la clase
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
 
         return ' ';
     }
 
     private void errorLexico(char c) {
-        System.out.println("Error lexico (" + fila + "," + columna + "): caracter '" + c + "' incorrecto");
+        System.err.println("Error lexico (" + fila + "," + columna + "): caracter '" + c + "' incorrecto");
         System.exit(-1);
     }
 
     private void errorComentario() {
-        System.out.println("Error lexico: fin de fichero inesperado");
+        System.err.println("Error lexico: fin de fichero inesperado");
         System.exit(-1);
     }
 }

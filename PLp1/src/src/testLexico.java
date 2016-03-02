@@ -6,7 +6,7 @@ import java.io.*;
 class testLexico {
 
     public static String toString(Token t){
-		return "("+t.fila+","+t.columna+"): "+t.lexema+" \""+t.toString()+"\" es de tipo "+t.tipo+'\n'; 
+		return "("+t.fila+","+t.columna+"): "+t.lexema+" es de tipo "+t.tipo+'\n'; 
     }
 
 

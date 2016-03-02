@@ -1,21 +1,20 @@
-Token: 1,1 main  -> (1,1): main es de tipo 18
+Token: 1,1 main  -> (1,1): main es de tipo 13
 
-Token: 1,5 (  -> (1,5): ( es de tipo 1
+Token: 1,5 (  -> (1,5): ( es de tipo 0
 
-Token: 1,6 )  -> (1,6): ) es de tipo 2
+Token: 1,6 )  -> (1,6): ) es de tipo 1
 
-Token: 2,1 {  -> (2,1): { es de tipo 9
+Token: 2,1 {  -> (2,1): { es de tipo 7
 
-Token: 3,3 double  -> (3,3): double es de tipo 17
+Token: 3,3 double  -> (3,3): double es de tipo 11
 
 Token: 3,10 a  -> (3,10): a es de tipo 15
 
-Token: 3,11 ;  -> (3,11): ; es de tipo 6
+Token: 3,11 ;  -> (3,11): ; es de tipo 4
 
 Token: 5,3 a  -> (5,3): a es de tipo 15
 
-Token: 5,4 =  -> (5,4): = es de tipo 8
+Token: 5,4 =  -> (5,4): = es de tipo 6
 
 Token: 5,5 7  -> (5,5): 7 es de tipo 14
 
-Error lexico (5,6): caracter '.' incorrecto
