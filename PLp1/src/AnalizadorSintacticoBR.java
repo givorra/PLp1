@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package src;
+
 
 /**
  *
@@ -14,6 +14,7 @@ public class AnalizadorSintacticoBR
     public Token token;
     public AnalizadorLexico analizadorLexico;
     public StringBuilder reglas;
+    public boolean imprimeReglas;
     
     AnalizadorSintacticoBR(AnalizadorLexico al)
     {
@@ -36,9 +37,19 @@ public class AnalizadorSintacticoBR
         {
             s += " "+Token.getLabel(t);
         }
-        System.err.println("Error sintactico ("+token.fila+","+token.columna+"): encontrado '"+token.lexema+"', esperaba"+s);
+        if(token.tipo == Token.EOF)
+            System.err.println("Error sintactico: encontrado fin de fichero, esperaba"+s);
+        else
+            System.err.println("Error sintactico ("+token.fila+","+token.columna+"): encontrado '"+token.lexema+"', esperaba"+s);
         System.exit(-1);
     }
+    
+    public void comprobarFinFichero()
+    {
+        if(token.tipo == Token.EOF && imprimeReglas)
+            System.out.println(reglas);
+    }
+    
     
     public void addRegla(int regla)
     {

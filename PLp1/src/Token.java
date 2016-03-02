@@ -1,5 +1,3 @@
-package src;
-
 public class Token {
 
     public int fila;
@@ -103,6 +101,8 @@ public class Token {
                 return "identificador";
             case REAL:
                 return "numero real";
+            case EOF:
+                return "fin de fichero";
         }
         return "ERROR LABEL";
     }
