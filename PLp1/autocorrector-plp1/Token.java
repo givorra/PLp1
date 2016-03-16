@@ -53,7 +53,6 @@ public class Token {
         return etiqueta;
     }
     
-    
     public void setTipo(int status)
     {
         if(status == MULOP1 || status == MULOP2)
@@ -62,5 +61,49 @@ public class Token {
             tipo = ENTERO;
         else
             tipo = status;
+    }
+    
+    public static String getLabel(int status)
+    {
+        switch(status)
+        {
+            case PARI:
+                return "(";
+            case PARD:
+                return ")";
+            case MULOP:
+                return "*/";
+            case ADDOP:
+                return "+-";
+            case PYC:
+                return ";";
+            case COMA:
+                return ",";
+            case ASIG:
+                return "=";
+            case LLAVEI:
+                return "{";
+            case LLAVED:
+                return "}";
+            case CORI:
+                return "[";
+            case CORD:
+                return "]";
+            case DOUBLE:
+                return "'double'";
+            case INT:
+                return "'int'";
+            case MAIN:
+                return "'main'";
+            case ENTERO:
+                return "numero entero";
+            case ID:
+                return "identificador";
+            case REAL:
+                return "numero real";
+            case EOF:
+                return "fin de fichero";
+        }
+        return "ERROR LABEL";
     }
 }

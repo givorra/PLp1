@@ -9,17 +9,19 @@
  *
  * @author gacel
  */
-public class AnalizadorSintacticoBR 
+public class AnalizadorSintacticoDR 
 {
     public Token token;
     public AnalizadorLexico analizadorLexico;
     public StringBuilder reglas;
     public boolean imprimeReglas;
     
-    AnalizadorSintacticoBR(AnalizadorLexico al)
+    AnalizadorSintacticoDR(AnalizadorLexico al)
     {
         analizadorLexico = al;
         token = al.siguienteToken();
+        reglas = new StringBuilder();
+        imprimeReglas = true;
     }
     
     public final void emparejar(int tokEsperado)
@@ -59,7 +61,7 @@ public class AnalizadorSintacticoBR
     
     public void S()
     {
-        if(token.tipo == Token.ENTERO || token.tipo == Token.DOUBLE || token.tipo == Token.MAIN)
+        if(token.tipo == Token.INT || token.tipo == Token.DOUBLE || token.tipo == Token.MAIN)
         {
             addRegla(1);    // Numero de regla en los conjuntos de prediccion
             Sp();
@@ -69,7 +71,7 @@ public class AnalizadorSintacticoBR
             Bloque();
         }
         else
-            errorSintaxis(Token.ENTERO, Token.DOUBLE, Token.MAIN);
+            errorSintaxis(Token.DOUBLE, Token.INT, Token.MAIN);
     }
     public void Sp()
     {
@@ -120,6 +122,7 @@ public class AnalizadorSintacticoBR
         if(token.tipo == Token.LLAVEI)
         {
             addRegla(7);
+            emparejar(Token.LLAVEI);
             SecInstr();
             emparejar(Token.LLAVED);
         }
@@ -191,14 +194,14 @@ public class AnalizadorSintacticoBR
     }
     public void MV()
     {
-        if(token.tipo == Token.CORI)
+        if(token.tipo == Token.COMA)
         {
             addRegla(15);
             emparejar(Token.COMA);
             Var();
             MV();
         }
-        else if(token.tipo == Token.COMA || token.tipo == Token.PYC)
+        else if(token.tipo == Token.PYC)
         {
             addRegla(16);
             emparejar(Token.PYC);
@@ -242,7 +245,7 @@ public class AnalizadorSintacticoBR
             addRegla(20);
             emparejar(Token.ADDOP);
             Term();
-            Expr();
+            ExprAux();
             
         }
         else if(token.tipo == Token.PYC)
@@ -258,7 +261,7 @@ public class AnalizadorSintacticoBR
         {
             addRegla(22);
             Factor();
-            Term();
+            TermAux();
         }
         else
             errorSintaxis(Token.ENTERO, Token.ID, Token.REAL);
